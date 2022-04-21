@@ -1,0 +1,6 @@
+print("\thello world".title())
+print("hello world")
+print()
+print("\nHi Tim!")
+print("hi tim")
+print("\nHI Tim")
