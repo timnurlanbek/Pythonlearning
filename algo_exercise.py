@@ -40,8 +40,7 @@ from re import I
 # my_list = [3,2,4,-10,5,7,6,11]
 # print(two_sum(my_list,9))
 
-dnfmsdnfmd,StartBoundaryNotFoundDefect
-fdsnnfmds
+
 
 
 
