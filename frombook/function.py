@@ -20,3 +20,8 @@ display_message('for loop')
 
 
 
+def favorite_books(title):
+    #my favorite books with titles.
+    print('My one of the most favorite book is '+title.title()+'\nThis is an amazing book')
+favorite_books('Oshibki na million')
+favorite_books('cheksiz nur')
