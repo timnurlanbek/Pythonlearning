@@ -122,6 +122,9 @@ for pet in pets:
     print(pet)
 
 
-
-
-
+def name(fname,lname):
+    name[fname]= "Tim"
+    name[lname]="Thompson"
+    full_name = "My first name is " + fname + " and last name is "+lname
+    return full_name
+    

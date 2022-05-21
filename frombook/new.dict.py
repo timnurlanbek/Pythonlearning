@@ -1,6 +1,6 @@
 # convert two lists into a dictionary
 
-from ctypes.wintypes import WORD
+
 
 
 key = ["Ten", "Twenty", "Thirty","Forty"]
@@ -77,26 +77,37 @@ values = [10,20,30,40]
 #     "city":"Moskva"}
 # print(info_friend) 
 
-glossary = {
-    "sorted()":"sorts all key or values in dict",
-    "items()":"this is referred both key and values",
-    "set":"chooes unique values or keys",
-    }
+# glossary = {
+#     "sorted()":"sorts all key or values in dict",
+#     "items()":"this is referred both key and values",
+#     "set":"chooes unique values or keys",
+#     }
 
-glossary["pop"]="this deletes values"
+# glossary["pop"]="this deletes values"
 
-print(glossary)
+# print(glossary)
 
-
+languages = ["python","c++","java","javascript","html","css","php"]
 poll_takers = {
     "ryyan":"python",
     "jamila":"c++",
-    "kerven":"",
-    "daniiar":"",
-    "Nuri":"",
+    "raihan":"",
+    "baatyr":"",
 }
-for ke,val in poll_takers.items():
-    if val=="":
-        print("Please take our poll first "+ke)
-    else:
-        print("Thank you for responding "+ke)
+# for ke,val in poll_takers.items():
+#     if val=="":
+#         print("Please take our poll first "+ke)
+#     else:
+#         print("Thank you for responding "+ke)
+
+# for key, values in poll_takers.items():
+#     if values in languages:
+#         print(key.title() + " your favorite language is "+values.title()+
+#         ". Thank you for taking our poll.")
+#     else:
+#         print(key.title()+" please take our poll please.")
+
+        
+   
+
+ 
